@@ -1,0 +1,327 @@
+@media (min-width: 981px) {
+    .only-mobile{
+        display: none;
+    }
+    #block-eulogizee-main-menu ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    section.welcome .col-md-6.col-12:first-child {
+        padding-left: 0;
+    }
+    a.global-cta, #block-webform input[type="submit"]{
+        min-width: 257px;
+    }
+}
+
+@media (max-width: 1550px) {
+    a.global-cta {
+        font-size: 14px;
+    }
+    h2.title-large {
+        font-size: 45px;
+    }
+    .t-slides h5 {
+        text-align: right;
+    }
+    
+    .menu-main a {
+        font-size: 16px;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .menu-main:after {
+        height: 72px;
+    }
+    
+    .logo img {
+        max-width: 15rem;
+    }
+    
+    /* h4.title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    p {font-size: 16px;line-height: 30px;} */
+    
+    h4.note {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 980px) {
+    footer .col-md-4.col-12 {
+        flex: 100%;
+        width: 100%;
+        max-width: 100%;
+        flex: 100%;
+    }
+    
+    footer .col-md-3,footer .col-md-2 {
+        flex: auto;
+        width: auto;
+        max-width: initial;
+    }
+    .only-desktop{
+        display: none;
+    }
+    .container {
+        max-width: 100%;
+    }
+    #block-eulogizee-main-menu ul {
+        padding: 0;
+    }
+    
+    #block-eulogizee-main-menu ul li {
+        width: 100% !important;
+    }
+    body #stripe-donation-form #donate {
+        margin: 2rem 0 0;
+    }
+    .menu-main a:after {
+        display: none !important;
+    }
+    
+    #block-eulogizee-main-menu li.menu-item:last-child a {justify-content: center;}
+    .banner h2 {
+        font-size: 40px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    
+    section.banner {
+        margin: 0;
+        background-position: center;
+        height: auto;
+        padding: 4rem 0;
+    }
+    
+    .logo img {
+        max-width: 12rem;
+    }
+    
+    header {
+        padding: 0.75rem 0;
+    }
+    body .slick-arrow {
+        display: none !important;
+    }
+    .ctas a {
+        width: 100%;
+    }
+
+    .ctas {
+        gap: 10px;
+    }
+    h4.title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 1rem;
+    }
+    
+    h6.before-title {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    h4.note {
+        font-size: 20px;
+    }
+    
+    .welcome h4.note {
+        margin: 2rem 0 2rem;
+    }
+    
+    .q-box {
+        margin-bottom: 2rem;
+    }
+    
+    section.quality {
+        margin: 3rem 0;
+    }
+    
+    section.download li {
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    section.download ul {
+        margin-bottom: 2rem;
+    }
+    
+    .download .ctas {
+        justify-content: center;
+    }
+    
+    .download .ctas a {
+        text-align: center;
+    }
+    
+    section.recent {
+        padding: 3rem 0;
+    }
+    
+    section.recent .col-md-4.col-12:first-child {
+        margin-bottom: 3rem;
+    }
+    
+    section.testimonial {
+        padding: 3rem 0 4rem;
+    }
+    
+    .testimonial-slider {
+        margin-top: 2rem;
+    }
+    .t-img.inner {
+        width: 100px;
+        height: 100px;
+        margin-top: -5rem;
+    }
+    
+    .t-slide-inner {
+        padding: 1rem 2rem;
+    }
+    
+    .t-slides h5 {
+        font-size: 20px;
+        text-align: right;
+        margin-bottom: 1rem;
+        padding-right: 0.5rem;
+    }
+    footer .col-md-3.col-12 {
+        margin-bottom: 1rem;
+    }
+    
+    .f-logo {
+        margin-bottom: 2rem;
+    }
+    
+    .right {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 71px;
+        background: #fff;
+        left: -100%;
+        z-index: 199;
+        border-top: 3px solid #8B3E89;
+        padding: 0 2rem;
+        transition: all 0.3s ease-in;
+    }
+    
+    .menu-strip .top {
+        flex-wrap: wrap;
+    }
+    
+    .menu-main {
+        background: #fff;
+        border-radius: 0;
+        flex-wrap: wrap;
+        display: block;
+    }
+    
+    .menu-main a {
+        color: #000;
+        width: 100%;
+        text-align: left;
+        justify-content: flex-start;
+        padding: 0.75rem 0;
+    }
+    
+    a.donate {
+        text-align: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .menu-main:after {
+        display: none;
+    }
+    
+    .menu-main a:after {
+        display: none;
+    }
+    .right.show{
+        left: 0;
+    }
+    section.banner.sm-banner {
+        height: 14rem;
+        margin-bottom: 2rem;
+    }
+    
+    h2.title-large {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    
+    .contact h2.title-large {
+        margin-bottom: 1rem;
+    }
+    section.features {
+        margin-bottom: 2rem;
+    }
+    .about_app .glb-img {
+        margin-bottom: 2rem;
+    }
+    
+    .glb-cnt {
+        padding: 0 1rem;
+    }
+    
+    section.app_screens {
+        margin: 2rem 0;
+    }
+    section.about_app .row {
+        align-items: stretch;
+    }
+    section.about_app .row .glb-img {
+        height: 100%;
+        margin-bottom: 0;
+    }
+    
+    section.about_app .row .glb-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    div#block-whyeulogizeeapp .row > div:first-child {
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    section.about_app .row .glb-img{
+        margin-bottom: 2rem;
+        height: auto;
+    }
+    div#block-whyeulogizeeapp .row > div:first-child{
+        padding: 0;
+    }
+    .mob-reverse {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    footer .col-md-4.col-12 {
+        margin-top: 3rem;
+    }
+    .t-slides {
+        margin-bottom: 0;
+    }
+    .node-1 .ctas a {
+        justify-content: center;
+        gap: 0;
+    }
+    
+    .node-1 .ctas a img:not(:nth-child(2)) {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+.logo {
+    flex: none;
+}
+
+header .right {
+    flex: 1;
+    max-width: 75%;
+}
+#block-eulogizee-main-menu ul li {
+    flex: 1;
+}
+.menu-strip {
+    width: fit-content;
+    margin-left: auto;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-strip .top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+.social-top div:after {
+    display: none;
+}
+
+.top-m {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-m div {
+    color: #929497;
+    line-height: 1.2;
+}
+
+.top-m span {
+    display: block;
+}
+
+.top-m a {
+    font-weight: 600;
+    color: #929497;
+}
+
+.menu-main {
+    background-color: #8B3E89;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 2rem;
+    position: relative;
+}
+
+.menu-main a {
+    padding: 1.5rem 1rem;
+    display: inline-flex;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    width: 100%;
+}
+.menu-main a:before{
+   content: '';
+   width: 0;
+   height: 4px;
+   background: #FB551D;
+   display: block;
+   position: absolute;
+   bottom: 0;
+   transition: all 0.3s ease-in;
+}
+.menu-main a:hover:before{
+    width: 100%;
+}
+.container {
+    max-width: 90%;
+}
+
+.social-top {
+    display: flex;
+    gap: 15px;
+}
+.banner{
+    background-image: url('../images/banner-1.png');
+    background-size: cover;
+    height: calc(100vh - 9rem);
+    margin: 0 0 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.banner h2 {
+    font-size: 95px;
+    color: #fff;
+    max-width: 45rem;
+    line-height: 100px;
+    letter-spacing: -3px;
+    margin-bottom: 3rem;
+}
+
+h2, h4, h3 {
+    font-weight: 800;
+}
+
+.orange {
+    background: #DB2332;
+}
+
+a.global-cta,
+#block-webform input[type="submit"] {
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    border-radius: 14px;
+    font-weight: 800;
+    border: 2px solid #a2000d;
+    box-shadow: 0px 10px 35px -18px #707070;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+a.global-cta::after,
+#block-webform input[type="submit"]::after{
+    content: '';
+    background-image: url('../images/arrow.png');
+    display: block;
+    width: 28px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    margin-left: 2rem;
+    transition: all 0.3s ease-in;
+}
+body .yellow {
+    background: #F8AA31;
+    color: #000;
+    border: 2px solid #a95e00;
+}
+
+a.global-cta.orange:after {
+    filter: invert(1);
+}
+
+.ctas {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+h6.before-title {
+    font-size: 20px;
+    line-height: 27px;
+    color: #FB551D;
+}
+
+h4.title {
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 20px;
+    line-height: 34px;
+}
+.glb-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+h4.note {
+    font-weight: 400;
+    line-height: 32px;
+    border-left: 7px solid #8B3E89;
+    padding-left: 1.25rem;
+}
+
+.welcome h4.note {
+    margin: 3rem 0 5rem;
+}
+
+section.welcome .row {
+    align-items: center;
+}
+
+.primary {
+    color: #8B3E89;
+}
+
+.note span.primary {
+    font-weight: 800;
+}
+.title-container {
+    text-align: center;
+    max-width: 70rem;
+    margin: 0 auto 3.5rem;
+}
+
+section.quality {
+    margin: 3rem 0 6rem;
+}
+.quality .col-md-4 {
+    padding: 0 7px;
+}
+
+.quality .view-content.row {
+    max-width: 96%;
+    margin: 0 auto;
+}
+.q-box h4 {
+    text-align: center;
+    font-size: 20px;
+    max-width: 12rem;
+    margin: 0.75rem auto 0;
+    font-family: Manrope;
+    color: #404041;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.q-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.q-box {
+    box-shadow: 0px 0px 10px 0px #e6e6e6;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.q-img {
+    height: 260px;
+}
+.download{
+    background-image: url('../images/app-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+}
+section.download .row {
+    align-items: center;
+}
+
+body .white {
+    color: #fff;
+}
+
+section.download li {
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+section.download li:before {
+    content: '';
+    background: url('http://3.18.4.204/themes/custom/eulogizee/assets/images/Icon metro-checkmark.svg');
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ctas a {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}    
+.recent a.global-cta.yellow {
+    margin-top: 3rem;
+    font-weight: 700 !important;
+}                                                                                                                               
+section.download ul {
+    padding: 0;
+    margin-bottom: 4rem;
+}
+.q-slide {
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.qw-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.qw-cnt {
+    background: #231F20;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+.qw-cnt h5 {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.qw-cnt p {
+    line-height: 25px;
+    margin: 0;
+}
+
+.qw-img {
+    height: 294px;
+    width: 100%;
+}
+
+.qw-cnt {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.slick-arrow {
+    width: 102px;
+    height: 102px;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: #f8aa3196;
+    background-image: url('../images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 19;
+    cursor: pointer;
+}
+button.slick-prev {
+    left: -2.5rem;
+}
+.quality .title-container {
+    margin-bottom: 2rem;
+}
+
+button.slick-next {
+    left: auto;
+    right: -2.5rem;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+section.recent .slick-arrow {
+    top: 37%;
+}
+section.testimonial{
+    background-image: url('../images/TEstimonial BG.png');
+    padding: 7rem 0 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.testimonial .row {
+    align-items: center;
+}
+section.recent {
+    padding: 5rem 0;
+}
+.t-slide-inner {
+    background: #fff;
+    border: 2px solid #FB551D;
+    border-radius: 22px;
+    padding: 1rem 2rem 3rem;
+}
+
+.t-img.inner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #FB551D;
+    margin-top: -8rem;
+    margin-bottom: 1.25rem;
+}
+
+.t-img.inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.t-slides h5 {
+    max-width: 22.5rem;
+    margin-left: auto;
+    margin-bottom: 1.25rem;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+}
+footer {
+    color: #929497;
+    background-color: #231F20;
+    padding: 3rem 0;
+}
+footer .top-m {
+    margin-bottom: 1rem;
+}
+.testimonial .slick-arrow {
+    background-color: #ffe8f8;
+    top: auto;
+    bottom: -1.25rem;
+    right: 2.5rem;
+}
+
+.t-slides {
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+.testimonial .slick-prev {
+    left: auto;
+    right: 9.5rem;
+}
+ul.f-list a {
+    color: #929497;
+    display: block;
+}
+
+ul.f-list {
+    padding: 0;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 30px;
+}
+header {
+    position: relative;
+    background-color: #fff;
+}
+
+.menu-main:after {
+    content: '';
+    width: 100%;
+    height: 81px;
+    background-color: #8B3E89;
+    position: absolute;
+    right: -100%;
+    bottom: 0;
+}
+a.donate {
+    background-color: #F8AA31;
+}
+.menu-main a:after {
+    content: '';
+    width: 1px;
+    height: 75%;
+    display: block !important;
+    background: #e5e5e5;
+    position: absolute;
+    right: 0rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-main a:last-child:after, .menu-main a:nth-child(3):after {
+    display: none;
+}
+
+img.menu-close {
+    display: none;
+}
+a.global-cta:hover:after {
+    margin-left: 2.25rem;
+}
+section.banner.sm-banner {
+    height: 28rem;
+}
+
+.sm-banner h2 {
+    margin: 0;
+}
+h2.title-large {
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    margin-top: 15px;
+}
+
+.cnt_d {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0.75rem 0;
+}
+
+.cnt_d:not(:last-child) {
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.cnt_d p {
+    line-height: 26px;
+}
+
+section.contact .container {
+    max-width: 1280px;
+}
+
+#block-webform form {
+    max-width: 1000px;
+    margin: 4rem auto;
+}
+
+.form-group {
+    box-shadow: 0px 1px 8px #0000000f;
+    display: flex;
+    gap: 1rem;
+    padding: 0px 3rem;
+    border-radius: 16px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.form-group input {
+    height: 66px;
+    width: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+}
+
+.form-group textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    color: #000;
+    height: 135px;
+    padding: 1rem 0;
+    width: 100%;
+}
+.textarea img {
+    margin-top: 18px;
+}
+#block-webform input[type="submit"] {
+    background-color: #F8AA31;
+    color: #000;
+    border: 2px solid #a95e00;
+    margin: 4rem auto 7rem;
+    width: 100%;
+    max-width: fit-content;
+    display: block;
+    background-image: url(/themes/custom/eulogizee/assets/images/ar-right.png);
+    background-repeat: no-repeat;
+    background-position: 84% center;
+    background-size: 28px;
+    cursor: pointer;
+    padding: 0 5rem 0 2rem;
+}
+
+#block-webform h2.title-large {
+    margin-bottom: 3.5rem;
+}
+.f-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.f-cont h4 {
+    font-size: 25px;
+    margin: 0;
+    line-height: 35px;
+}
+
+.f-cont p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+section.features {
+    margin-bottom: 5rem;
+}
+section.about_app .col-md-6 {
+    padding: 0;
+}
+
+section.about_app .row {
+    align-items: center;
+}
+
+.glb-cnt {
+    padding: 0 2rem;
+}
+
+section.app_screens {margin: 5rem 0;}
+
+.screen-img img {
+    width: 100%;
+}
+.screens_slider .slick-list{
+    padding:0 10% 0 0 !important;
+}
+section.download-2 {
+    background: #EFEFEF;
+    padding: 5rem 0 6rem;
+        margin-top: 5rem;
+}
+
+section.download-2 .ctas {
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+/************new CSS*************/
+#block-eulogizee-main-menu ul {
+    margin: 0;
+}
+#block-eulogizee-main-menu li.menu-item {
+    display: inline-block;
+    width: 180px;
+}
+div#block-helpline .field--name-body, div#block-sendemail .field--name-body, #block-address .field--name-body, #block-sociallink .field--name-body{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#block-eulogizee-main-menu li.menu-item:last-child {
+    background: #F8AA31;
+}
+#block-eulogizee-main-menu li.menu-item:last-child a:after, #block-eulogizee-main-menu li.menu-item:nth-child(3) a:after {
+    display: none !important;
+}
+.node-1 .ctas a {
+    gap: 15px;
+    justify-content: center;
+}
+div#block-eulogizee-content {
+    padding-bottom: 3rem;
+}
+div#block-appscreens {
+    padding-top: 5rem;
+}
+
+.form-group.form-item-name, .donate-name {
+    background-image: url('../images/userIcon.svg');
+    background-repeat: no-repeat;
+    background-position: 18px;
+}
+.form-group.form-item-email, .donate-email {
+    background-image: url('../images/msg.svg');
+    background-repeat: no-repeat;
+    background-position: 18px;
+}
+.form-group.form-item-phone {
+    background-image: url('../images/phone3.svg');
+    background-repeat: no-repeat;
+    background-position: 18px;
+}
+.form-group.form-item-message {
+    background-image: url('../images/message.svg');
+    background-repeat: no-repeat;
+    background-position: 18px 18px;
+}
+.form-textarea-wrapper {
+    width: 100%;
+}
+
+#stripe-donation-form {
+    box-shadow: none !important;
+    max-width: 800px !important;
+    background: none !important;
+}
+.form-group.donate-amount span {
+    display: none;
+}
+body #stripe-donation-form #donate {
+    background-color: #F8AA31 !important;
+    color: #000 !important;
+    border: 2px solid #a95e00;
+    margin: 4rem auto 1rem;
+    width: 100%;
+    max-width: fit-content;
+    display: block;
+    font-size: 17px;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6rem 0 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 14px;
+    font-weight: 800;
+    border: 2px solid #a2000d;
+    box-shadow: 0px 10px 35px -18px #707070;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    background: url(/themes/custom/eulogizee/assets/images/ar-right.png);
+    background-repeat: no-repeat;
+    background-position: 88% center;
+    background-size: 33px;
+    cursor: pointer;
+}
+.messages.messages--status {
+    background: #44cf44;
+    padding: 10px;
+    color: #fff;
+}
+ul.f-list li {
+    list-style: none;
+}
+.form-group.donate-amount {
+    background-image: url(/themes/custom/eulogizee/assets/images/dollar.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 21px;
+}
+
+.form-group.donate-amount div {
+    width: 100%;
+}
+
+div#card-element {
+    height: 66px;
+    padding: 24px 20px;
+    box-shadow: 0px 1px 8px #0000000f;
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+#block-eulogizee-main-menu ul:after {
+    display: none;
+}
+.menu-main > div {
+    width: 100%;
+}
+.node-2 {
+    background: #F6F6F6;
+}
+
+.node-2 .container {
+    max-width: 75rem;
+}
+.path-donate {
+    background: #F6F6F6;
+}

@@ -1,0 +1,101 @@
+ <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="{{ url('<front>') }}"><img src="{{ url('<front>') }}/themes/custom/eulogizee/assets/images/Logo.svg" alt=""></a>
+                </div>
+                <div class="toggle only-mobile">
+                    <img src="{{ url('<front>') }}/themes/custom/eulogizee/assets/images/humberger.svg" class="menu-open" alt="">
+                    <img src="{{ url('<front>') }}/themes/custom/eulogizee/assets/images/closeIcon.svg" class="menu-close" alt=""> 
+                </div>
+                <div class="right">
+                    <div class="menu-strip">
+                        <div class="top">
+                            <div class="top-m">
+                                {{ page.header1 }}
+                                
+                            </div>
+                            <div class="top-m">
+                                {{ page.header2 }}
+                                
+                            </div>
+                            <div class="top-m">
+                                {{ page.header3 }}
+                                
+                            </div>
+                            <div class="social-top">
+                                {{ page.header4 }}
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-main">
+                        {{ page.primary_menu }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner sm-banner">
+        <div class="container">
+            {{ page.title1 }}
+        </div>
+    </section>  
+
+    <section>
+      <div class="container">
+        {{ page.content }}
+      </div>
+    </section>
+
+    {% if page.featured_bottom_first %}
+        <section class="download-2">
+            <div class="container text-center">
+                {{ page.featured_bottom_first }}
+               
+            </div>
+        </section>
+    {% endif %}
+    {% if page.testimonial_left %}
+        <section class="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        {{ page.testimonial_left }}
+                        
+                    </div>
+                    <div class="col-md-6 col-12">
+                        {{ page.testimonial_right }}
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="f-logo">
+                        {{ page.footer_first }}
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    {{ page.footer_second }}
+                    
+                </div>
+                <div class="col-md-2 col-12">
+                    {{ page.footer_third }}
+                    
+                </div>
+                <div class="col-md-4 col-12">
+                    {{ page.footer_fourth }}
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
